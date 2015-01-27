@@ -8,7 +8,9 @@ en la máquina en la que lo queramos instalar:
 
 **sudo apt-get install wget**
 
-**wget git@gitlab.local.dart.technology:dart/infraestructura/vagrant_install.sh**
+**wget https://github.com/mfunes/vagrant/blob/master/vagrant_install.sh**
+
+**sudo chmod +x vagrant_install.sh**
 
 **sudo ./vagrant_install.sh**
 
@@ -18,3 +20,4 @@ La instalación se desarrolla con éxito.
 Se continua haciendo pruebas debido a que aún no funciona la orden
 
 **vagrant up --provider libvirt**
+
